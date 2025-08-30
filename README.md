@@ -8,7 +8,7 @@ A **Full-Stack E-Commerce Application** built with **Spring Boot** (backend) and
 - Order placement and management
 - Backend REST APIs built with Spring Boot
 - Frontend built with React.js
-- Data persistence using Hibernate, JPA, and H2 in-memory database
+- Data persistence using Hibernate, JPA, and in-memory Database: H2 (for development; can be switched to MySQL/PostgreSQL)
 - Responsive UI for seamless user experience
 
 ## Technology Stack
