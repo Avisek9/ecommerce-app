@@ -80,7 +80,7 @@ http://localhost:8080/h2-console
 
 ### Frontend Setup (React.js)
 
-cd frontend  
+cd ecommerce-frontend 
 npm install  
 npm start  
 
