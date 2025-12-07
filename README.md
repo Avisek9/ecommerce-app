@@ -60,7 +60,7 @@ Make sure you have the following installed:
 
 ### Backend Setup (Spring Boot)
 
-git clone https://github.com/your-username/your-repo-name.git  
+git clone https://github.com/Avisek9/ecommerce-app.git
 cd backend  
 mvn clean install  
 mvn spring-boot:run  
