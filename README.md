@@ -1,6 +1,6 @@
 # Full-Stack E-Commerce Application
 
-A full-stack E-Commerce web application built using Spring Boot (Backend) and React.js (Frontend) that supports complete product management, shopping cart functionality, and order processing with persistent database storage.
+A full-stack E-Commerce web application built using Spring Boot (Backend) and React.js with Vite (Frontend) that supports complete product management, keyword-based product search, shopping cart functionality, and order placement with persistent database storage.
 
 This project demonstrates real-world implementation of REST APIs, frontend-backend integration, and database-driven application design.
 
@@ -9,13 +9,14 @@ This project demonstrates real-world implementation of REST APIs, frontend-backe
 ## Features
 
 - Product catalog with full CRUD operations  
+- Keyword-based product search  
 - User-friendly shopping cart functionality  
-- Order placement and order management  
+- Order placement system  
 - RESTful APIs built using Spring Boot  
-- Frontend built using React.js  
+- Frontend built using React.js with Vite  
 - Database persistence using Hibernate and JPA  
   - H2 (in-memory) database for development  
-  - Easily configurable to MySQL or PostgreSQL  
+  - Easily configurable to MySQL for production  
 - Responsive UI for smooth user experience  
 - Clean separation of frontend and backend concerns  
 
@@ -28,18 +29,18 @@ This project demonstrates real-world implementation of REST APIs, frontend-backe
 - Spring Boot  
 - Hibernate  
 - JPA  
-- H2 Database (Development) / MySQL or PostgreSQL (Optional)  
+- H2 (Development) / MySQL (Production - Optional)  
 - Maven  
 
 ### Frontend
-- React.js  
+- React.js (Vite)  
 - JavaScript  
 - npm  
 
 ### Tools and Version Control
 - Git  
 - GitHub  
-- REST API Architecture  
+- Postman (API Testing)  
 
 ---
 
@@ -48,8 +49,6 @@ This project demonstrates real-world implementation of REST APIs, frontend-backe
 Follow the steps below to run this project locally.
 
 ### Prerequisites
-
-Make sure you have the following installed:
 
 - Java 21  
 - Maven  
@@ -60,11 +59,11 @@ Make sure you have the following installed:
 
 ### Backend Setup (Spring Boot)
 
-git clone https://github.com/Avisek9/ecommerce-app.git
+git clone https://github.com/Avisek9/ecommerce-app.git  
 
 cd ecommerce-backend
 
-mvn clean install  
+mvn clean install 
 
 mvn spring-boot:run  
 
@@ -72,23 +71,23 @@ The backend will start on:
 
 http://localhost:8080  
 
-H2 Console:
+H2 Console (Optional):
 
 http://localhost:8080/h2-console  
 
 ---
 
-### Frontend Setup (React.js)
+### Frontend Setup (React.js with Vite)
 
-cd ecommerce-frontend 
+cd ecommerce-frontend
 
-npm install  
+npm install 
 
-npm run dev
+npm run dev  
 
 Frontend will run on:
 
-http://localhost:5173
+http://localhost:5173  
 
 ---
 
@@ -96,7 +95,8 @@ http://localhost:5173
 
 - All backend services are exposed via REST APIs  
 - Hibernate ORM is used for database interaction  
-- The application can be easily configured to switch from H2 to MySQL or PostgreSQL using application properties  
+- Search APIs allow filtering products by keyword  
+- The application can be easily configured to switch from H2 to MySQL using application properties  
 
 ---
 
@@ -107,12 +107,13 @@ http://localhost:5173
 - Admin dashboard  
 - Product image uploads  
 - Order tracking system  
+- Advanced search and filtering  
 
 ---
 
 ## Author
 
-Abhishek Sahu    
+Abhishek Sahu  
 
 ---
 
