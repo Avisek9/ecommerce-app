@@ -61,8 +61,11 @@ Make sure you have the following installed:
 ### Backend Setup (Spring Boot)
 
 git clone https://github.com/Avisek9/ecommerce-app.git
-cd backend  
+
+cd ecommerce-backend
+
 mvn clean install  
+
 mvn spring-boot:run  
 
 The backend will start on:
