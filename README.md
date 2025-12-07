@@ -105,7 +105,6 @@ http://localhost:5173
 - User authentication and authorization using Spring Security and JWT  
 - Payment gateway integration  
 - Admin dashboard  
-- Product image uploads  
 - Order tracking system  
 - Advanced search and filtering  
 
